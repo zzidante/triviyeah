@@ -1,0 +1,1 @@
+SELECT 'testing' AS test;
