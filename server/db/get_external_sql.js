@@ -10,7 +10,7 @@ const sql = async function({ here, file }) {
     const query = handleWhenError({ fileResponse: queryIoObj});
 
     return { 
-        queryObject: query, 
+        result: query, 
         $query: query[QueryFile.$query]
     } ;
 };
