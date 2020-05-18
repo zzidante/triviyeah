@@ -1,4 +1,4 @@
-BEGIN;
+BEGIN; -- use default transaction level for now
 
 CREATE table schema_migrations (
   prefix TEXT,
